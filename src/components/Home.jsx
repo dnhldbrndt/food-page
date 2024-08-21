@@ -1,7 +1,7 @@
- import React from 'react'
- import NavBar from "./Navbar"
+import React from 'react'
+import Navbar from "./Navbar"
 import BannerBackground from "../assets/home-banner-background.png"
-import BannerImage from "../assets/homebanner-image.png"
+import BannerImage from "../assets/1.jfif"
 import {FiArrowRight} from "react-icons/fi"
 
  const Home = () => {
@@ -9,7 +9,7 @@ import {FiArrowRight} from "react-icons/fi"
      <div className="home-container">
       <Navbar />
       <div className="home-banner-contaienr">
-        <div className="home-banberImage-container">
+        <div className="home-bannerImage-container">
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home-text-section">

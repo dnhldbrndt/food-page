@@ -1,6 +1,6 @@
 import React from 'react'
 import AboutBackground from "../assets/about-background.png"
-import ABoutBackgroundImage from "../assets/about-background-image.png"
+import AboutBackgroundImage from "../assets/3.png"
 import {BsFillPlayCircleFill} from "raect-icons/bs"
 
 
@@ -21,7 +21,7 @@ const About = () => {
             </p>
             <div className="about-buttons-container">
                 <buton className="secondary-button"> Learn More</buton>
-                <button className="watch-video-button"> <BsFillPlayCircleFill/> Watch Video</button>
+                <button className="watch-video-button">{ " " } <BsFillPlayCircleFill/> Watch Video</button>
             </div>
         </div>
     </div>
